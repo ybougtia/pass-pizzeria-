@@ -1,0 +1,73 @@
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(241, 183, 8, 1) 93%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /* style entéte */
+    
+    header {
+        background-color: #FFC107;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 25%;
+        font-family: 'Caveat', cursive;
+        font-size: 25px;
+    }
+    
+    .logo {
+        margin-left: 5%;
+        margin-top: 0.2%;
+    }
+    /*fin style entéte*/
+    /*style section*/
+    
+    .section {
+        padding: 150px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+        background: linear-gradient(90deg, rgba(189, 183, 107, 1) 0%, rgba(255, 228, 181, 1) 60%);
+        font-size: 25px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #pass {
+        padding: 10px;
+    }
+    
+    #valider {
+        padding: 10px;
+        background-color: green;
+    }
+    
+    #valider:hover {
+        transform: translateY(-2px);
+        background-color: rgb(87, 97, 87);
+    }
+    
+    p {
+        display: none;
+    }
